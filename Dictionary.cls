@@ -45,10 +45,10 @@ End Enum
 
 ' Enables 'For Each' On Dictionary Class
 ' enumerates dict_pKeyValues collection
-Property Get NewEnum() As IUnknown
-  Attribute NewEnum.VB_UserMemId = -4
-  Set NewEnum = dict_pKeyValues.[_NewEnum]
-End Property
+'Property Get NewEnum() As IUnknown
+'  Attribute NewEnum.VB_UserMemId = -4
+'  Set NewEnum = dict_pKeyValues.[_NewEnum]
+'End Property
 
 Public Property Get CompareMode() As CompareMethod
 Attribute CompareMode.VB_Description = "Set or get the string comparison method."
